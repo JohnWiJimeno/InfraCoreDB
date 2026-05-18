@@ -1,0 +1,36 @@
+USE [InfraCoreDB]
+GO
+
+SELECT [ContratoID]
+      ,[EmpresaID]
+      ,[NoRup]
+      ,[ObjetoContrato]
+      ,[EntidadContratante]
+      ,[NoContrato]
+      ,[NombreContratista]
+      ,[NitConsorcioUT]
+      ,[PorcentajePart]
+      ,[TipoObraID]
+      ,[FechaInicio]
+      ,[FechaFinal]
+      ,[Plazo]
+      ,[ValorContrato]
+      ,[VrSmmlv]
+      ,[VrSmmlvPart]
+      ,[VrTotalContrato]
+      ,[EstadoContratoID]
+      ,[DatosTecnicos]
+      ,[FechaRut]
+      ,[Responsable]
+      ,[Telefono]
+      ,[Correo]
+      ,[Plataforma]
+      ,[LinkContrato]
+      ,[DetallesAdicionales]
+      ,[DocumentoPDF]
+      ,[SalarioID]
+  FROM [dbo].[Contratos]
+
+GO
+
+

@@ -1,0 +1,7 @@
+SELECT TOP (1000) [AccionistaID]
+      ,[EmpresaID]
+      ,[EmpresaAccionistaID]
+      ,[PorcentajePart]
+      ,[VrAccion]
+      ,[NoAcciones]
+  FROM [InfraCoreDB].[dbo].[Accionista]
